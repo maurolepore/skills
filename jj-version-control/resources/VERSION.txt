@@ -1,0 +1,48 @@
+JJ Version Control Skill - Version Information
+==============================================
+
+Skill created: November 30, 2025
+Skill version: 1.0.0
+
+Documentation Source
+--------------------
+Repository: https://github.com/jj-vcs/jj
+Central docs location: ~/.local/share/jj-docs/repo/docs/
+Quick reference: jj-help-output.txt (generated from jj -h)
+
+JJ Version Used for Resource Generation
+----------------------------------------
+JJ version: 0.33.0
+Help output generated: November 30, 2025
+
+Documentation Status
+--------------------
+To install official documentation, run:
+  ~/.claude/skills/jj-version-control/setup-jj-docs.sh
+
+After installation, documentation version details will be at:
+  ~/.local/share/jj-docs/VERSION.txt
+
+Update Instructions
+-------------------
+To update skill resources:
+
+1. Update JJ help reference:
+   jj -h > ~/.claude/skills/jj-version-control/resources/jj-help-output.txt
+
+2. Update central documentation:
+   cd ~/.local/share/jj-docs/repo && git pull
+
+   Or re-run: ~/.claude/skills/jj-version-control/setup-jj-docs.sh
+
+3. Check documentation version:
+   cat ~/.local/share/jj-docs/VERSION.txt
+
+Maintenance Notes
+-----------------
+- This skill is designed to be evidence-based, relying on official documentation
+- Resources should be updated when JJ releases new versions
+- The three-tier verification system ensures accuracy over guessing
+- Always prioritize documentation over training data
+
+Last Updated: November 30, 2025
